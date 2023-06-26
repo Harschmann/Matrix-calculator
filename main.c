@@ -105,7 +105,7 @@ int main()
         case 4:
             inverseMatrix(matrix1, rows1, inverse);
             printf("\nInverse of Matrix 1:\n");
-            displayMatrix((int *)inverse, rows1, cols1);
+            displayDoubleMatrix((int *)inverse, rows1, cols1);
             break;
 
         case 5:
@@ -135,6 +135,18 @@ void displayMatrix(int matrix[][MAX_SIZE], int rows, int cols)
         for (int j = 0; j < cols; j++)
         {
             printf("%d ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+void displayDoubleMatrix(double matrix[][MAX_SIZE], int rows, int cols)
+{
+    for (int i = 0; i < rows; i++)
+    {
+        for (int j = 0; j < cols; j++)
+        {
+            printf("%f ", matrix[i][j]);
         }
         printf("\n");
     }
