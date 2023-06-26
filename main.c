@@ -15,6 +15,7 @@ double calculateDeterminant(int matrix[][MAX_SIZE], int size);
 int main()
 {
     printf("Harsh Kumar\n");
+    printf("Harsh Gupta\n");
 
     int choice;
     int rows1, cols1, rows2, cols2;
