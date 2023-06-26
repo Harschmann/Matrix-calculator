@@ -5,6 +5,7 @@
 
 void readMatrix(int matrix[][MAX_SIZE], int rows, int cols);
 void displayMatrix(int matrix[][MAX_SIZE], int rows, int cols);
+void displayDoubleMatrix(double matrix[][MAX_SIZE], int rows, int cols);
 void addMatrices(int matrix1[][MAX_SIZE], int matrix2[][MAX_SIZE], int result[][MAX_SIZE], int rows, int cols);
 void subtractMatrices(int matrix1[][MAX_SIZE], int matrix2[][MAX_SIZE], int result[][MAX_SIZE], int rows, int cols);
 void multiplyMatrices(int matrix1[][MAX_SIZE], int matrix2[][MAX_SIZE], int result[][MAX_SIZE], int rows1, int cols1, int cols2);
