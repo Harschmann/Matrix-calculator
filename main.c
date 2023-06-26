@@ -1,3 +1,4 @@
+// Matrix calculator using C
 #include <stdio.h>
 
 #define MAX_SIZE 10
