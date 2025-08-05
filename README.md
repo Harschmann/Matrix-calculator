@@ -1,46 +1,47 @@
-# 🧮 Matrix Calculator (C)
+# 🧮 Matrix Calculator in C
 
-A command-line matrix calculator written in **C**, capable of performing basic matrix operations such as addition, subtraction, multiplication, and transpose. Ideal for learning matrix manipulation and procedural programming in C.
+A command-line matrix calculator written in **C**. It supports key matrix operations such as addition, subtraction, multiplication, transpose, determinant, and inverse using custom logic without external libraries.
 
 ---
 
-## 📦 Features
+## 📌 Features
 
 - ➕ Matrix Addition  
 - ➖ Matrix Subtraction  
 - ✖️ Matrix Multiplication  
-- 🔄 Matrix Transpose  
-- 🧮 Clean input validation
+- 🔁 Transpose  
+- 🧮 Determinant Calculation  
+- 🔄 Matrix Inversion (via adjoint and determinant method)  
+- 📦 Works with square and rectangular matrices (up to 10×10)
 
 ---
 
-## 🚀 How to Run
+## ⚙️ How to Compile & Run
 
-### 🧱 Compile
+### 🔧 Compile
 
 ```bash
 gcc main.c -o matrix_calculator
 ```
 
-### ▶️ Execute
+### ▶️ Run
 
 ```bash
 ./matrix_calculator
 ```
 
-> If you're on Windows:
-```cmd
-gcc main.c -o matrix_calculator.exe
-matrix_calculator.exe
-```
+> Windows users can run:  
+> `matrix_calculator.exe` after compiling
 
 ---
 
-## 📁 Files
+## 🗂 Project Structure
 
-- `main.c` – Source code
-- `main` – Compiled binary (Linux)
-- `README.md` – Project documentation
+```
+├── main.c         # Full matrix calculator source code
+├── main           # Compiled executable (may vary by platform)
+└── README.md      # Project documentation
+```
 
 ---
 
@@ -51,7 +52,13 @@ matrix_calculator.exe
 
 ---
 
-## 📃 License
+## 📄 License
 
-This project is open-source under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## ⭐️ Star This Repo
+
+If you find this project useful or educational, please consider giving it a ⭐️!
 
